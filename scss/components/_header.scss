@@ -1,0 +1,117 @@
+@import "./variables";
+
+.header {
+    padding: 0 2px 5px 2px;
+    // padding-bottom: 30px;
+    margin: 0px auto;
+    min-height: 90vh;
+}
+.parallax {
+    height: 400px;
+    padding-top: 170px;
+    text-align: center;
+    background-position: center;
+    background-position: 30% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+    overflow: hidden;
+}
+.banner-row {
+    animation-name: zoomIn;
+    font-family: 'Playball',cursive;
+    font-size: 60px;
+    line-height: 1.0;
+    font-weight: 900;
+    color: $text-color-white;
+}
+.logo {
+    max-width: 130px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: $text-color-white;
+}
+
+
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.isFixed {
+	left:0px;
+	width:100%;
+}
+
+
+.nav {
+    text-align: center;
+    top: 0; // выравниваем блок nav по верхней границе страницы
+    left: 0; // выравниваем блок nav по левой границе страницы
+    width: 100vw; // задаем ширину блока nav в 100% от ширины страницы
+    transition: all 0.3s ease-in-out; // добавляем плавный переход для анимации
+    &.fixed {
+    position: fixed; // фиксируем позицию блока nav
+    padding: 0; // добавляем отступ сверху и снизу для блока nav
+    
+  }
+}
+.nav .nav-row {
+    position: relative;
+    margin: 1px;
+    padding: 10px 5px;
+    list-style: none;
+    background-color: $background-black;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; // установить z-index, чтобы список был поверх остального контента
+    overflow: visible !important;
+}
+.nav-row li {
+    flex-direction: column;
+    margin: 0 auto;
+    float: none;
+    display: inline-block;
+}
+.nav-row a {
+    display: inline-block;
+    padding:20px 5px;
+    color: $text-color-white !important;
+	line-height:18px;
+	text-align:center;
+    font-size: 15px;
+}
+a,a:hover {
+	color:$text-first-letter;
+	text-decoration: none;
+}
+.dividerline {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.heading-text h2 {
+    text-align: center;
+    font-family: 'Playball',cursive;
+    font-size: 35px;
+    color: $text-color-greyblack;
+    margin: 0;
+    padding: 5px;
+}
+.heading-text h2::first-letter {
+    color: $text-first-letter;
+}
+.heading-text h3 {
+    font-size: 16px;
+    line-height: 1.7;
+}

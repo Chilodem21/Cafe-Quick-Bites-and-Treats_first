@@ -1,0 +1,100 @@
+@import "./variables";
+
+.footer {
+    background: $background-red;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    // position: relative;
+    p {
+      color: $text-color-white;
+      font-size: 13px;
+      line-height: 24px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+    .up-center {
+      position: relative;
+    }
+    .link-mmc {
+      color: #fff;
+    }
+    .link-mmc:hover, .link-mmc:focus {
+      color: $text-color-black;
+      background-color: $background-dff;
+    }
+}
+.gototop {
+	width:60px;
+	height:60px;
+	background:$background-white;
+	position:absolute;
+	top:-35px;
+	border-radius:50%;
+}
+.gototop>i {
+	color:#cc580c;
+	line-height:70px;
+}
+.angle-double {
+  font-size: 10px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  width: 45px;
+  height: 45px;
+}
+
+.social-icons {
+  display: inline-flex;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-radius: 3px;
+    .icon {
+      margin: 0 4px 0px;
+      width: 35px !important;
+      height: 35px !important;
+      border-radius: 3px;
+      background-color: $background-black-02;
+    }
+    .icon-img:hover, .icon-img:focus {
+      background-color: $background-white;
+      filter: invert(100%);
+    }
+    .icon-img {
+      width: 35px !important;
+      height: 35px !important;
+      border-radius: 3px;
+      filter: invert(100%);
+    }
+  }
+  
+  /* ограничение ширины .container, если ширина экрана более 768-992-1200 пикселей */
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  //   @media screen and (min-width: 992px) {
+  //   .container {
+  //     width: 970px;
+  //   }
+  // }
+  // @media screen and (min-width: 768px) {
+  //   .container {
+  //     width: 750px;
+  //   }
+  // }

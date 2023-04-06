@@ -1,0 +1,36 @@
+{
+    "update.mode": "none",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.startupEditor": "none",
+    "files.autoSave": "onFocusChange",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.path": "",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1,
+    "git.ignoreMissingGitWarning": true,
+    "liveSassCompile.settings.forceBaseDirectory": "/scss",
+    "liveSassCompile.settings.formats": [
+        
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css",
+            "savePathReplacementPairs": null
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.includeItems": [
+    
+    ],
+    "emmet.preferences": {
+        
+    }
+}

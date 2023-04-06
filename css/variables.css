@@ -1,0 +1,19 @@
+$nav-link-hover-bg: #eee;
+$nav-disabled-color: #777;
+$nav-divider-color: #e5e5e5;
+$nav-tabs-border-color: #ddd;
+$nav-tabs-active-color: #555;
+$nav-tabs-active-bg: #fff;
+$nav-tabs-active-border-color: #ddd;
+$nav-pills-active-color: #fff;
+$nav-pills-active-bg: #428bca;
+
+$nav-link-padding-y: 10px;
+$nav-link-padding-x: 15px;
+$nav-link-border-radius: 4px;
+
+$nav-divider-height: 1px;
+$nav-divider-margin-y: 9px;
+$nav-divider-margin-x: 0;
+
+$nav-justified-link-margin-bottom: 5px;
